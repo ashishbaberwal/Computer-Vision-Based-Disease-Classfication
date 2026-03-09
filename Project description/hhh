@@ -1,0 +1,77 @@
+# Computer Vision Based Disease Classification using Chest X-Ray Images
+
+## Project Overview
+This project focuses on building a **deep learning based computer vision system** that automatically classifies chest X-ray images into different disease categories. The model is trained using a **Convolutional Neural Network (CNN)** implemented in TensorFlow/Keras.
+
+The goal of the project is to assist in **early detection of respiratory diseases** by analyzing medical images and predicting the presence of conditions such as **COVID-19, Viral Pneumonia, Lung Opacity, or Normal lungs**.
+
+Medical image classification using deep learning can help healthcare professionals by providing **fast and automated diagnostic support**.
+
+---
+
+## Problem Statement
+Manual diagnosis of chest X-ray images requires expert radiologists and can be time-consuming. During large outbreaks such as COVID-19, rapid screening becomes critical.
+
+This project aims to develop a **computer vision model that can automatically analyze chest X-ray images and classify them into disease categories**, helping reduce diagnostic workload and enabling faster medical decisions.
+
+---
+
+## Dataset
+
+The dataset used in this project is the **COVID-19 Radiography Database**, which contains chest X-ray images for multiple respiratory conditions.
+
+Dataset Source: Kaggle
+
+Dataset Link  
+https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+
+### Dataset Statistics
+
+Total Images: **42,330**
+
+Classes in the dataset:
+
+| Class | Description |
+|------|-------------|
+| COVID | Chest X-ray images of COVID-19 infected lungs |
+| Normal | Healthy lungs |
+| Viral Pneumonia | Viral pneumonia infected lungs |
+| Lung Opacity | Lung abnormalities and opacity regions |
+
+Each class contains thousands of X-ray images used to train and evaluate the model.
+
+---
+
+## Technologies Used
+
+### Programming Language
+- Python
+
+### Libraries and Frameworks
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- KaggleHub
+
+### Development Environment
+- Google Colab
+
+---
+
+## Project Pipeline
+
+The project follows a complete deep learning workflow consisting of several stages.
+
+### 1. Dataset Download
+The dataset is automatically downloaded using **KaggleHub**, which allows direct access to Kaggle datasets within the notebook environment.
+
+The dataset contains separate folders for each disease class.
+
+---
+
+### 2. Data Loading
+
+Images are loaded using the TensorFlow function:
