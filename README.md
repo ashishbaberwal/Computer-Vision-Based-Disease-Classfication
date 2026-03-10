@@ -1,6 +1,4 @@
-# Computer-Vision-Based-Disease-Classfication
-Deep learning framework for automated disease classification from medical images with multimodal AI support.
-Here is a **properly structured, balanced GitHub README description** — professional, clear, and not overly long.
+# Computer-Vision-Based-Disease-Classfication for Chest
 
 ---
 
